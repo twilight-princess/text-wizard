@@ -12,27 +12,20 @@
 //   This function uses recursion to reverse a word in C.
 void reversedWord (char input [], int size)
 {
-	//int size = strln(input);
-	printf("%d\n", size);
+        printf("Enter a word to reverse:\n");
+        scanf("%s", input);
+        printf("your word in reverse is %s\n", input);
+	printf("%d\n", nameLen);
 }
 
 //   This is our main method that is responsible for running our program.
 int main ()
 {
-	int size = 0;
-	char input[100];
-	char yesOrNo[10];
-		
-	printf("what's yo name?\n");
-	scanf("%s", input);
-	printf("your name is %s\n", input);
-	printf("want to reverse your name? y/n\n");
-	scanf("%s\n", yesOrNo);
-	if (yesOrNo != "y"){
-		printf("ok bye");
-	}else{
-		void reversedWord(char input [], int size);
-		};
-	return 0;
+	//int nameLen = 0;
+	char input[0];
+	char yesOrNo [0];		
+	int nameLen = strlen(input);
+	reversedWord(input, nameLen);
+	return(0);
 			
 }
