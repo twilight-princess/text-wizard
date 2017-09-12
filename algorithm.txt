@@ -8,13 +8,13 @@ for beginning <= end
 	print out the reversed word 
 or else
 	switch beginning and end
-		beginning[] becomes placeholder []
+		beginning[] becomes placeholder 
 		beginning[] becomes end []
-		end[] becomes 	placeholder []
+		end[] becomes 	placeholder 
 	beginning ++
-		now beginning is [] which is a
+		now beginning is [end] which is a
 	end --
-		now end is []
+		now end is [beginning]
 	revWord()
 
 do you want to continue? y/n
@@ -26,5 +26,5 @@ example: darlene
 size = 7
 end = [7-1 = 6]
 beginning = [0]
-	(will add one to beginning and subtract one from end until they are equal. in this case at 
+	(will add one to beginning and subtract one from end until they are equal or for an even word beginning will be higher than end.)
 
